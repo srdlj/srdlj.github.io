@@ -111,10 +111,14 @@ hr {
     text-align: left;
   }
   .avatar-img {
+    align-items: center;
     margin: auto 30% 5% 30%;
   }
   .footer-social-icons {
     display: flex;
-    margin: 5px 0 5px 30%;
+    margin: 5px 0 5px 25%;
+  }
+  #title {
+    text-align: center;
   }
 }
