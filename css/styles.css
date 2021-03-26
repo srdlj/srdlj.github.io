@@ -160,8 +160,9 @@ hr {
 
 /* Music Section */
 
-.feature-box {
-  padding: 0 0 2% 0;
+.feature-box iframe {
+  width: 100%;
+  padding-bottom: 5%;
 }
 
 /* Footer Section */
@@ -219,6 +220,7 @@ hr {
   .title-info {
     text-align: left;
   }
+
   .avatar-img {
     align-items: center;
     position: relative;
