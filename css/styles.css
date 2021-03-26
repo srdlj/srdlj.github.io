@@ -6,6 +6,7 @@
 body {
   background-color: whitesmoke;
   font-family: 'Gothic A1', sans-serif;
+  animation: fadeIn ease 5s;
 }
 
 p {
@@ -29,7 +30,6 @@ hr {
   font-size: 1.2rem;
 
 }
-
 
 /* Title Section */
 
@@ -69,6 +69,7 @@ hr {
   -o-transition: 1s;
   opacity: 0.8;
   filter: brightness(85%);
+  animation: swing ease 2.5s;
 }
 
 .spin-illuminate:hover {
@@ -85,9 +86,57 @@ hr {
   transform: rotate(360deg);
 }
 
+.spin-illuminate-v2:hover {
+  opacity: 1;
+  filter: brightness(110%);
+  transition: 1s;
+  animation: zoominoutsinglefeatured 1s;
+}
+
+
 .nav-slash {
   padding-left: 10px;
   padding-right: 10px;
+}
+
+/* Experience Section */
+#experience {
+  background: lightslategray;
+  margin-bottom: 5%;
+  padding: 5% 15%;
+  text-align: center;
+  line-height: 1.5;
+  color: #fff
+}
+
+#experience h2 {
+  font-style: bold;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#experience h3 {
+  font-style: italic ;
+}
+
+#experience h4 {
+
+}
+
+#experience i {
+
+}
+
+.experience-header {
+  padding-bottom: 5%;
+}
+
+.experience-item {
+  padding: 10px 0;
+  text-align: left;
+}
+
+.resume-btn {
+  align-items: left;
 }
 
 /* Footer Section */
@@ -105,6 +154,31 @@ hr {
 }
 
 
+/* KeyFrames Section */
+@keyframes zoominoutsinglefeatured {
+  0% {
+      transform: scale(1,1);
+  }
+  50% {
+      transform: scale(1.2,1.2);
+  }
+  100% {
+      transform: scale(1,1);
+  }
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0%;}
+  100% {opacity: 100%;}
+}
+
+@keyframes swing {
+  0% {transform: rotate(0deg);}
+  20% {transform: rotate(300deg);}
+  60% {transform: rotate(-45deg);}
+  100% {transform: rotate(0deg);}
+}
+
 /* Mobile Viewing */
 
 @media (max-width: 995px) {
@@ -120,6 +194,10 @@ hr {
   #title {
     padding-top: 10%;
     text-align: center;
+  }
+
+  .experience-header {
+    padding-bottom: 10%;
   }
 
   #footer {
