@@ -145,13 +145,23 @@ hr {
 }
 
 .proj-item {
-  padding: 5% 0;
+  padding: 3% 0;
 }
 
 .carousel-img {
   width: 20%;
   margin: 0 40%;
   align-items: center;
+}
+
+.proj-item iframe {
+  align-items: center;
+}
+
+/* Music Section */
+
+.feature-box {
+  padding: 0 0 2% 0;
 }
 
 /* Footer Section */
@@ -198,6 +208,14 @@ hr {
 /* Mobile Viewing */
 
 @media (max-width: 995px) {
+  li {
+    padding-bottom: 5%;
+  }
+
+  #me {
+    padding: 20% 15%;
+  }
+
   .title-info {
     text-align: left;
   }
@@ -216,11 +234,15 @@ hr {
     padding-bottom: 10%;
   }
 
+  .proj-item iframe {
+    height:50%;
+    width: 50%;
+  }
+
   #footer {
     background: #fff;
     padding: 3% 15%;
     text-align: center;
     align-items: center;
-  
   }
 }
