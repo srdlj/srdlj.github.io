@@ -4,7 +4,7 @@
  */
 
 body {
-  background-color: whitesmoke;
+  background-color: #d6e0f0;
   font-family: 'Gothic A1', sans-serif;
   animation: fadeIn ease 5s;
 }
@@ -12,7 +12,6 @@ body {
 p {
   font-size: 1.1rem;
 }
-
 
 hr {
   border-style: none;
@@ -23,9 +22,14 @@ hr {
   width: 10%;
 }
 
+.sub-section-title {
+  font-style: bold;
+  font-family: 'Ubuntu', sans-serif;
+}
+
 /* Navbar Section */
 .navbar {
-  background: #fff;
+  background: #d6e0f0;
   color:black;
   font-size: 1.2rem;
 
@@ -93,41 +97,31 @@ hr {
   animation: zoominoutsinglefeatured 1s;
 }
 
-
 .nav-slash {
   padding-left: 10px;
   padding-right: 10px;
 }
 
 /* Experience Section */
-#experience {
+
+#experience, #music {
   background: lightslategray;
-  margin-bottom: 5%;
   padding: 5% 15%;
   text-align: center;
   line-height: 1.5;
-  color: #fff
-}
-
-#experience h2 {
-  font-style: bold;
-  font-family: 'Ubuntu', sans-serif;
+  color: #f1f3f8;
 }
 
 #experience h3 {
   font-style: italic ;
 }
 
-#experience h4 {
-
+#experience li {
+  font-size: 1.5rem;
 }
 
-#experience i {
-
-}
-
-.experience-header {
-  padding-bottom: 5%;
+.sub-header {
+  padding-bottom: 2%;
 }
 
 .experience-item {
@@ -139,7 +133,29 @@ hr {
   align-items: left;
 }
 
+/* Projects Section */
+
+#projects {
+  background: #d6e0f0;
+  margin-bottom: 5%;
+  padding: 5% 15%;
+  text-align: center;
+  line-height: 1.5;
+  color: #000
+}
+
+.proj-item {
+  padding: 5% 0;
+}
+
+.carousel-img {
+  width: 20%;
+  margin: 0 40%;
+  align-items: center;
+}
+
 /* Footer Section */
+
 #footer {
   background: #fff;
   padding: 2% 30%;
