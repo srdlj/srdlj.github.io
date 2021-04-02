@@ -6,7 +6,6 @@
 body {
   background-color: #d6e0f0;
   font-family: 'Gothic A1', sans-serif;
-  animation: fadeIn ease 5s;
 }
 
 p {
@@ -182,6 +181,7 @@ hr {
 
 
 /* KeyFrames Section */
+
 @keyframes zoominoutsinglefeatured {
   0% {
       transform: scale(1,1);
@@ -209,6 +209,7 @@ hr {
 /* Mobile Viewing */
 
 @media (max-width: 995px) {
+
   li {
     padding-bottom: 5%;
   }
