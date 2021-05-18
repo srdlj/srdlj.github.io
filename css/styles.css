@@ -3,6 +3,7 @@
  * font-family: 'Ubuntu', sans-serif;
  */
 
+
 body {
   background-color: #d6e0f0;
   font-family: 'Gothic A1', sans-serif;
@@ -165,6 +166,41 @@ hr {
   padding-bottom: 5%;
 }
 
+.shuffle-container {
+ 
+}
+
+.shuffle-btn {
+  color: #FE8CDF;
+  background:#353866;
+  filter: brightness(80%);
+
+  margin: auto;
+  width: 150px;
+  padding: 12px 12px;
+  cursor: pointer;
+  user-select: none;
+  transition: all 150ms linear;
+  white-space: nowrap;
+  text-decoration: none !important;
+  text-transform: none;
+  text-transform: capitalize;
+  border: 0 none;
+  border-radius: 36px;
+
+  line-height: 1.3;
+
+  -webkit-appearance: none;
+  -moz-appearance:    none;
+  appearance:         none;
+
+}
+
+.shuffle-btn:hover {
+  filter: brightness(110%);
+  transition: 1s;
+}
+
 /* Footer Section */
 
 #footer {
@@ -206,6 +242,20 @@ hr {
   60% {transform: rotate(-45deg);}
   100% {transform: rotate(0deg);}
 }
+
+@keyframes effect_dylan {
+  50% {
+    transform: scale(1.5, 1.5);
+    opacity: 0;
+  }
+  99% {
+    transform: scale(0.001, 0.001);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(0.001, 0.001);
+    opacity: 1;
+  }
 
 /* Mobile Viewing */
 
