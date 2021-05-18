@@ -6,7 +6,8 @@ const shuffle = () => {
     '<div class="feature-box col-lg-4 col-md-6"><iframe src="https://open.spotify.com/embed/track/3D88PDMxUKx9uwyxSdPEpX" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>',  // "Zombie" by Chiefed Samurai (produced by srdbeatz and o9serenity)
     '<div class="feature-box col-lg-4 col-md-6"><iframe src="https://open.spotify.com/embed/track/0uz7adrUqpaaTvI0XI3BUC" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>',  // "Trigun" by benjamingotbenz (produced by srdbeatz)
     '<div class="feature-box col-lg-4 col-md-6"><iframe src="https://open.spotify.com/embed/track/4aQqRB02G8XjP5UFhRLBcJ" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>',  // "not sorry" by Nosgov (produced by srdbeatz, lb66music, and hadif10k),
-    '<div class="feature-box col-lg-4 col-md-6"><iframe src="https://open.spotify.com/embed/track/68vhMwhv5RcSEDE89S9dSn" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>'  // "#flashbang OMFG" by Kevinhilfiger (produced by srdbeatz)
+    '<div class="feature-box col-lg-4 col-md-6"><iframe src="https://open.spotify.com/embed/track/68vhMwhv5RcSEDE89S9dSn" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>',  // "#flashbang OMFG" by Kevinhilfiger (produced by srdbeatz)
+    '<div class="feature-box col-lg-4 col-md-6"><iframe src="https://open.spotify.com/embed/track/3dNgIro8gFfFA6JkOhi3bV" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>'  // "WAT'S NEXT (PINK HEART EMOJIS)" by Lil Yawh (produced by srdbeatz)
   ];
   var featuredBox = document.getElementById('featured-box');
   while(featuredBox.firstChild) {  // Remove all current elements.
