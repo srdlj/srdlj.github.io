@@ -166,10 +166,6 @@ hr {
   padding-bottom: 5%;
 }
 
-.shuffle-container {
- 
-}
-
 .shuffle-btn {
   color: #FE8CDF;
   background:#353866;
@@ -243,20 +239,6 @@ hr {
   100% {transform: rotate(0deg);}
 }
 
-@keyframes effect_dylan {
-  50% {
-    transform: scale(1.5, 1.5);
-    opacity: 0;
-  }
-  99% {
-    transform: scale(0.001, 0.001);
-    opacity: 0;
-  }
-  100% {
-    transform: scale(0.001, 0.001);
-    opacity: 1;
-  }
-
 /* Mobile Viewing */
 
 @media (max-width: 995px) {
@@ -289,8 +271,8 @@ hr {
   }
 
   .proj-item iframe {
-    height:50%;
-    width: 50%;
+    height:100%;
+    width: 200px;
   }
 
   #footer {
