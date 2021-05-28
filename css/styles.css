@@ -149,7 +149,7 @@ a
 }
 
 .proj-item {
-  padding: 3% 0;
+  padding-bottom: 8%;
 }
 
 .carousel-img {
@@ -161,6 +161,12 @@ a
 .proj-item iframe {
   align-items: center;
 }
+
+.dsi img {
+  width: 40%;
+  cursor: pointer;
+}
+
 
 /* Music Section */
 
