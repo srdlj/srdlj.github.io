@@ -23,7 +23,29 @@ hr {
   width: 10%;
 }
 
-a
+.link-item:link {
+  color: #353866;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.link-item:visited {
+  color: #f1f3f8;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.link-item:hover {
+  color: #d6e0f0;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.link-item:active {
+  color: #353866;
+  background-color: transparent;
+  text-decoration: underline;
+}
 
 
 .sub-section-title {
