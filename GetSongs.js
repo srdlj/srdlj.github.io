@@ -23,6 +23,6 @@ const shuffle = () => {
        "text/html");
     featuredBox.appendChild(newNode.documentElement.childNodes[1].childNodes[0]);
   });
-}
+};
 
 shuffle();  // On Page load.
