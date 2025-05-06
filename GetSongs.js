@@ -1,13 +1,19 @@
 const shuffle = () => {
   var songs = [
-    '"https://open.spotify.com/embed/track/46NHU4NCL41ErRLWMdvmJ6"',  // "armory!" by Kid Sora (produced by srdbeatz, 5v, and odece)
-    '"https://open.spotify.com/embed/track/2o8O5q8oxIwOvzDZiK3BdR"',  // "WAT U KNO ABT THAT" by Lil Yawh (produced by srdbeatz)
-    '"https://open.spotify.com/embed/track/0hQgEP0Thly4pG4DGuJLX6"',  // "goin2myhead" by i9bonsai (produced by srdbeatz)
-    '"https://open.spotify.com/embed/track/3D88PDMxUKx9uwyxSdPEpX"',  // "Zombie" by Chiefed Samurai (produced by srdbeatz and o9serenity)
-    '"https://open.spotify.com/embed/track/0uz7adrUqpaaTvI0XI3BUC"',  // "Trigun" by benjamingotbenz (produced by srdbeatz)
-    '"https://open.spotify.com/embed/track/4aQqRB02G8XjP5UFhRLBcJ"',  // "not sorry" by Nosgov (produced by srdbeatz, lb66music, and hadif10k),
-    '"https://open.spotify.com/embed/track/68vhMwhv5RcSEDE89S9dSn"',  // "#flashbang OMFG" by Kevinhilfiger (produced by srdbeatz)
-    '"https://open.spotify.com/embed/track/3dNgIro8gFfFA6JkOhi3bV"'  // "WAT'S NEXT (PINK HEART EMOJIS)" by Lil Yawh (produced by srdbeatz)
+    '"https://open.spotify.com/embed/track/5qNcN9D7qV7gLL5YjOEp7g"',
+    '"https://open.spotify.com/embed/track/0JGzWmU2dBSIrWu25UjWwZ"',
+    '"https://open.spotify.com/embed/track/14apWkXuh5o8PQg4smwfKL"',
+    '"https://open.spotify.com/embed/track/5PY4JyJ5oQIxLx9iqrXXEG"',
+    '"https://open.spotify.com/embed/track/0pwFrIJoyqy9ugDZzS6LuL"',
+    '"https://open.spotify.com/embed/track/2HaBkCslZfvnQezlLJqTFA"',,
+    '"https://open.spotify.com/embed/track/3ZCczSAiyiT3WZMbeWjuzi"',
+    '"https://open.spotify.com/embed/track/0wpiw06Mi04WzoE66WeZIm"',
+    '"https://open.spotify.com/embed/track/04nPLtaR2lP2Gr9aht1cXq"',
+    '"https://open.spotify.com/embed/track/4mMevxIGyOGDmaG8MVAKZm"',
+    '"https://open.spotify.com/embed/track/6Mc3itw8LFnVDrASVN1J3A"',
+    '"https://open.spotify.com/embed/track/3QwcOzf70Y7P2w7XJYboNW"',
+    '"https://open.spotify.com/embed/track/0f9E0d2hbsdWEu1c2nXlNL"',
+    '"https://open.spotify.com/embed/track/5oERKCRba1gdGMAfzbMaHs"',
   ];
   var featuredBox = document.getElementById('featured-box');
   while(featuredBox.firstChild) {  // Remove all current elements.
